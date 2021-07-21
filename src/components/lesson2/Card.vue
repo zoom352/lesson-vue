@@ -20,7 +20,7 @@ export default {
       call: {
           type: String,
           validator(value) {
-              return value.length < 50
+              return value.length < 20
           }
       }, 
       subscribe: {

@@ -6,6 +6,8 @@
     <PhotoRedactor/>
     <PropsEmitVmodel/>
     <underCard/>
+    <userForm/>
+    <Validations/>
   </div>
 </template>
 
@@ -15,12 +17,16 @@
 // import UseCard from './components/UseCard.vue'
 // import PhotoRedactor from './components/VifVshow.vue'
 // import PropsEmitVmodel from './components/PropsEmitVmodel.vue'
-import underCard from './components/lesson2/underCard.vue'
+// import underCard from './components/lesson2/underCard.vue'
+// import userForm from './components/userForm/userForm.vue'
+import Validations from './components/Validations/Validations.vue'
 
 export default {
   name: 'App',
   components: {
-    underCard,
+    Validations,
+    // userForm,
+    // underCard,
     // PropsEmitVmodel
     // PhotoRedactor
     // MyComponent,
